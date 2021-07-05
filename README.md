@@ -62,3 +62,10 @@ $ npm install --save @nestjs/jwt
 ## passwordをハッシュ化する
 $ npm install --save bcryptjs
 $ npm install --save-dev @types/bcryptjs
+
+## jwtトークンを復号して照合する
+npm install @nestjs/passport passport-jwt
+npm install passport
+
+## 型定義ファイルのインストール
+npm install --save-dev @types/passport-jwt
